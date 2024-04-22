@@ -7,18 +7,24 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@map-component/vue-tmap": "^1.0.1",
+    "@vant/weapp": "^1.11.5",
     "core-js": "^3.8.3",
+    "vant": "^4.8.11",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@vant/auto-import-resolver": "^1.1.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
     "less": "^4.0.0",
-    "less-loader": "^8.0.0"
+    "less-loader": "^8.0.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0"
   },
   "browserslist": [
     "> 1%",
